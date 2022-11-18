@@ -44,7 +44,7 @@ namespace SeleniumConcept
 
             Screenshot sc= driver.TakeScreenshot();
             sc.SaveAsFile("C:\\error.png");
-            //added to read from js
+            //added to read from js 2
 
            string output=driver.ExecuteJavaScript<string>("return document.querySelector('#checkin').value");
            Console.WriteLine(output);
