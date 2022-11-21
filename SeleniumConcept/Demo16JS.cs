@@ -42,12 +42,12 @@ namespace SeleniumConcept
 
             driver.ExecuteJavaScript("document.querySelector('#checkout').value='17-12-2022'");
 
-            Screenshot sc= driver.TakeScreenshot();
+            Screenshot sc = driver.TakeScreenshot();
             sc.SaveAsFile("C:\\error.png");
-            //added to read from js 2
 
-           string output=driver.ExecuteJavaScript<string>("return document.querySelector('#checkin').value");
-           Console.WriteLine(output);
+            //retrieve data using javascript
+            string output = driver.ExecuteJavaScript<string>("return document.querySelector('#checkin').value");
+            Console.WriteLine(output);
         }
     }
 }
