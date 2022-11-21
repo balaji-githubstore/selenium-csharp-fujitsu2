@@ -16,7 +16,7 @@ namespace SeleniumConcept
 {
     public class Program8
     {
-        //using WebElement
+        //switch using WebElement
         static void Main8(string[] args)
         {
             IWebDriver driver = new ChromeDriver("C:\\Users\\Administrator");
