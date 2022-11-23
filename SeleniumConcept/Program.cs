@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Chromium;
 using OpenQA.Selenium.DevTools;
@@ -19,17 +20,51 @@ namespace SeleniumConcept
     //using name or id as string
     public class Program
     {
-        static void Main5(string[] args)
+        static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
-            driver.Url = "https://nasscom.in/";
+            driver.Url = "https://facebook.com/";
 
-            IWebElement ele1 = driver.FindElement(By.XPath("//div[@id='navigation']//a[text()='Members Listing']"));
-            //ele1.Click();
-            driver.ExecuteJavaScript("arguments[0].click();",ele1);
+            //WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
+            DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(driver);
+            wait.IgnoreExceptionTypes(typeof(Exception));
+            wait.Timeout = TimeSpan.FromSeconds(20);
+
+
+            //wait.IgnoreExceptionTypes(typeof(NoAlertPresentException), typeof(NoSuchElementException));
+            //wait.PollingInterval = TimeSpan.FromSeconds(1);
+
+
+            driver.Url = "https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm";
+            driver.FindElement(By.XPath("//img[@alt='Go']")).Click();
+
+            wait.Until(x => x.FindElement(By.LinkText("Create New Account"))).Click();
+            wait.Until(x => x.FindElement(By.Name("firstname"))).SendKeys("bala");
+            wait.Until(x => x.FindElement(By.Name("lastname"))).SendKeys("bala");
+
+            string title = wait.Until(x => x.Title);
+            Console.WriteLine(title);
+
+
+            //ignore alert exception for 20s if alert is not there
+            string alertText=wait.Until(x => x.SwitchTo().Alert()).Text;
+            wait.Until(x => x.SwitchTo().Alert()).Accept();
+
+            //driver.FindElement(By.LinkText("Create New Account")).Click();
+
+            //driver.FindElement(By.Name("firstname")).SendKeys("bala");
+
+            //driver.FindElement(By.Name("lastname")).SendKeys("dina");
+
+            //string alertText = driver.SwitchTo().Alert().Text;
+            //Console.WriteLine(alertText);
+
+            //driver.SwitchTo().Alert().SendKeys("hello");
+
+            //driver.SwitchTo().Alert().Accept();
 
         }
     }

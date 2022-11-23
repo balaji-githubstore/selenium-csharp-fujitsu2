@@ -19,7 +19,7 @@ namespace SeleniumConcept
     //using name or id as string
     public class Programjs
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
