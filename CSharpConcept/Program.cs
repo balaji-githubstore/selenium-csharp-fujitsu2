@@ -16,16 +16,22 @@ namespace Fujitsu.CSharpConcept
             //Console.WriteLine(colors1.Length);
 
             //i++ or ++i --> i=i+1
-            //for (int i=0;i<colors1.Length;i++)
-            //{
-            //    Console.WriteLine(colors1[i]);
-            //}
+            for (int i = 0; i < colors1.Length; i++)
+            {
+                if (colors1[i].Equals("green"))
+                {
+                    Console.WriteLine(colors1[i]+" is present");
+                    break;
+                }
+
+               
+            }
 
 
-            //foreach(string color in colors1)
-            //{
-            //    Console.WriteLine(color);
-            //}
+            foreach (string color in colors1)
+            {
+                Console.WriteLine(color);
+            }
 
             //int[] numbers1 = { 45, 10, 55 };
 

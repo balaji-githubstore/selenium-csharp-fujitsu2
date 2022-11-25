@@ -48,6 +48,8 @@ namespace SeleniumConcept
             //retrieve data using javascript
             string output = driver.ExecuteJavaScript<string>("return document.querySelector('#checkin').value");
             Console.WriteLine(output);
+
+          
         }
     }
 }

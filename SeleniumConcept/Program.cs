@@ -24,48 +24,32 @@ namespace SeleniumConcept
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-
-            driver.Url = "https://facebook.com/";
-
-            //WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
-            DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(driver);
-            wait.IgnoreExceptionTypes(typeof(Exception));
-            wait.Timeout = TimeSpan.FromSeconds(20);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
 
 
-            //wait.IgnoreExceptionTypes(typeof(NoAlertPresentException), typeof(NoSuchElementException));
-            //wait.PollingInterval = TimeSpan.FromSeconds(1);
+            driver.Url = "https://www.google.com/";
 
+            ReadOnlyCollection<IWebElement> elements = driver.FindElements(By.XPath("//a"));
 
-            driver.Url = "https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm";
-            driver.FindElement(By.XPath("//img[@alt='Go']")).Click();
+            Console.WriteLine(elements.Count);
 
-            wait.Until(x => x.FindElement(By.LinkText("Create New Account"))).Click();
-            wait.Until(x => x.FindElement(By.Name("firstname"))).SendKeys("bala");
-            wait.Until(x => x.FindElement(By.Name("lastname"))).SendKeys("bala");
+            //for(int i=0;i<elements.Count;i++) 
+            //{
+            //    string innerText = elements[i].Text;
+            //    Console.WriteLine(innerText);
 
-            string title = wait.Until(x => x.Title);
-            Console.WriteLine(title);
+            //    string href = elements[i].GetAttribute("href");
+            //    Console.WriteLine(href);
+            //}
+            Console.WriteLine("---------------------");
+            foreach(IWebElement ele in elements)
+            {
+                string innerText = ele.Text;
+                Console.WriteLine(innerText);
 
-
-            //ignore alert exception for 20s if alert is not there
-            string alertText=wait.Until(x => x.SwitchTo().Alert()).Text;
-            wait.Until(x => x.SwitchTo().Alert()).Accept();
-
-            //driver.FindElement(By.LinkText("Create New Account")).Click();
-
-            //driver.FindElement(By.Name("firstname")).SendKeys("bala");
-
-            //driver.FindElement(By.Name("lastname")).SendKeys("dina");
-
-            //string alertText = driver.SwitchTo().Alert().Text;
-            //Console.WriteLine(alertText);
-
-            //driver.SwitchTo().Alert().SendKeys("hello");
-
-            //driver.SwitchTo().Alert().Accept();
-
+                string href = ele.GetAttribute("href");
+                Console.WriteLine(href);
+            }
         }
     }
 }
