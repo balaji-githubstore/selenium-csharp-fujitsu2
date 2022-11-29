@@ -7,50 +7,48 @@ using System.Threading.Tasks;
 
 namespace Fujitsu.CSharpConcept
 {
+
+    class Father
+    {
+        public int fAge = 65;
+
+        public Father(int fAge)
+        {
+            this.fAge = fAge;
+            Console.WriteLine("Father Constructor");
+        }
+        public void FatherStyle()
+        {
+            Console.WriteLine("Father Style!!");
+        }
+    }
+    class Son : Father
+    {
+        public int sAge = 20;
+        public Son(int fAge,int sAge):base(fAge)
+        {
+            this.sAge = sAge;
+            Console.WriteLine("Son Constructor");
+        }
+        public void SonStyle()
+        {
+            Console.WriteLine("Son Style");
+        }
+    }
     public class Program
     {
         static void Main(string[] args)
         {
-            string[] colors1 = { "red", "green", "yellow","blue" };
+            //Father f=new Father();
+            //f.FatherStyle();
 
-            //Console.WriteLine(colors1.Length);
-
-            //i++ or ++i --> i=i+1
-            for (int i = 0; i < colors1.Length; i++)
-            {
-                if (colors1[i].Equals("green"))
-                {
-                    Console.WriteLine(colors1[i]+" is present");
-                    break;
-                }
-
-               
-            }
-
-
-            foreach (string color in colors1)
-            {
-                Console.WriteLine(color);
-            }
-
-            //int[] numbers1 = { 45, 10, 55 };
-
-            //foreach(int x in numbers1)
-            //{
-            //    Console.WriteLine(x);
-            //}
-
-            for (int r = 2; r <= 3; r++)
-            {
-                for (int c = 1; c <= 3; c++)
-                {
-                    Console.WriteLine(r);
-                    Console.WriteLine(c);
-                    Console.WriteLine("---------------");
-                }
-            }
+            Son s = new Son(65,20);
+            s.FatherStyle();
+            s.SonStyle();
+            Console.WriteLine(s.fAge);
+            Console.WriteLine(s.sAge);
+         
         }
-
     }
 
 
