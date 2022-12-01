@@ -1,0 +1,533 @@
+2022-12-01 07:21:58:147 [Appium] Welcome to Appium v1.22.3
+2022-12-01 07:21:58:152 [Appium] Non-default server args:
+2022-12-01 07:21:58:153 [Appium]   address: 127.0.0.1
+2022-12-01 07:21:58:154 [Appium]   port: 49204
+2022-12-01 07:21:58:155 [Appium]   logFile: C:\automation_work\WindowsAutomationSln\WindowsAutomation\fileInfo.log
+2022-12-01 07:21:58:260 [Appium] Appium REST http interface listener started on 127.0.0.1:49204
+2022-12-01 07:21:58:757 [HTTP] --> GET /wd/hub/status
+2022-12-01 07:21:58:759 [HTTP] {}
+2022-12-01 07:21:58:765 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-12-01 07:21:58:770 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-12-01 07:21:58:789 [HTTP] <-- GET /wd/hub/status 200 24 ms - 68
+2022-12-01 07:21:58:791 [HTTP] 
+2022-12-01 07:21:58:799 [HTTP] --> GET /wd/hub/status
+2022-12-01 07:21:58:801 [HTTP] {}
+2022-12-01 07:21:58:802 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-12-01 07:21:58:804 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-12-01 07:21:58:807 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2022-12-01 07:21:58:808 [HTTP] 
+2022-12-01 07:21:58:909 [HTTP] --> GET /wd/hub/status
+2022-12-01 07:21:58:910 [HTTP] {}
+2022-12-01 07:21:58:911 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-12-01 07:21:58:912 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-12-01 07:21:58:914 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2022-12-01 07:21:58:915 [HTTP] 
+2022-12-01 07:21:59:151 [HTTP] --> POST /wd/hub/session
+2022-12-01 07:21:59:152 [HTTP] {"desiredCapabilities":{"deviceName":"WindowsPC","platformName":"Windows","app":"C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe"},"capabilities":{"firstMatch":[{"platformName":"Windows"}]}}
+2022-12-01 07:21:59:153 [W3C] Calling AppiumDriver.createSession() with args: [{"deviceName":"WindowsPC","platformName":"Windows","app":"C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe"},null,{"firstMatch":[{"platformName":"Windows"}]}]
+2022-12-01 07:21:59:154 [BaseDriver] Event 'newSessionRequested' logged at 1669879319154 (12:51:59 GMT+0530 (India Standard Time))
+2022-12-01 07:21:59:176 [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["deviceName","app"]
+2022-12-01 07:21:59:176 [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2022-12-01 07:21:59:179 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-12-01 07:21:59:179 [BaseDriver]   deviceName
+2022-12-01 07:21:59:180 [BaseDriver]   app
+2022-12-01 07:21:59:282 [Appium] Appium v1.22.3 creating new WindowsDriver (v1.19.1) session
+2022-12-01 07:21:59:290 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-12-01 07:21:59:291 [BaseDriver] Creating session with W3C capabilities: {
+2022-12-01 07:21:59:292 [BaseDriver]   "alwaysMatch": {
+2022-12-01 07:21:59:292 [BaseDriver]     "appium:deviceName": "WindowsPC",
+2022-12-01 07:21:59:293 [BaseDriver]     "appium:app": "C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+2022-12-01 07:21:59:293 [BaseDriver]     "platformName": "Windows"
+2022-12-01 07:21:59:294 [BaseDriver]   },
+2022-12-01 07:21:59:294 [BaseDriver]   "firstMatch": [
+2022-12-01 07:21:59:295 [BaseDriver]     {}
+2022-12-01 07:21:59:295 [BaseDriver]   ]
+2022-12-01 07:21:59:295 [BaseDriver] }
+2022-12-01 07:21:59:307 [BaseDriver] Session created with session id: 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:21:59:318 [WinAppDriver] WinAppDriver exists, but the checksum did not match. Was it replaced manually?
+2022-12-01 07:21:59:331 [WinAppDriver] Spawning 'C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe' with args: ["4724/wd/hub"]
+2022-12-01 07:21:59:350 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-12-01 07:21:59:352 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
+2022-12-01 07:21:59:400 [WD Proxy] connect ECONNREFUSED 127.0.0.1:4724
+2022-12-01 07:21:59:476 [WinAppDriver] Windows Application Driver listening for requests at: http://127.0.0.1:4724/wd/hub
+2022-12-01 07:21:59:479 [WinAppDriver] Press ENTER to exit.
+2022-12-01 07:22:00:409 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-12-01 07:22:00:411 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
+2022-12-01 07:22:00:417 [WinAppDriver] ==========================================
+2022-12-01 07:22:00:418 [WinAppDriver] GET /wd/hub/status HTTP/1.1
+2022-12-01 07:22:00:418 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:00:419 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:00:419 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:00:419 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:00:420 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:00:426 [WD Proxy] Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19042"}}
+2022-12-01 07:22:00:428 [WinAppDriver] Starting WinAppDriver session. Will timeout in '20000' ms.
+2022-12-01 07:22:00:429 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 07:22:00:430 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","deviceName":"WindowsPC","app":"C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe"}}
+2022-12-01 07:22:00:435 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:00:435 [WinAppDriver] Content-Length: 146
+2022-12-01 07:22:00:436 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:00:436 [WinAppDriver] 
+2022-12-01 07:22:00:436 [WinAppDriver] {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19042"}}
+2022-12-01 07:22:00:438 [WinAppDriver] ==========================================
+2022-12-01 07:22:00:438 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 07:22:00:439 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:00:439 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:00:439 [WinAppDriver] Content-Length: 147
+2022-12-01 07:22:00:439 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:00:440 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:00:440 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:06:137 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:06:137 [WinAppDriver] Content-Length: 170
+2022-12-01 07:22:06:138 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:06:139 [WinAppDriver] 
+2022-12-01 07:22:06:139 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"app":"C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe","platformName":"Windows"}}
+2022-12-01 07:22:06:141 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"app":"C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe","platformName":"Windows"}}
+2022-12-01 07:22:06:142 [WD Proxy] Determined the downstream protocol as 'MJSONWP'
+2022-12-01 07:22:06:142 [Appium] New WindowsDriver session created successfully, session 1c77d13d-f98b-441d-bf74-6c052d36d2e0 added to master session list
+2022-12-01 07:22:06:144 [BaseDriver] Event 'newSessionStarted' logged at 1669879326144 (12:52:06 GMT+0530 (India Standard Time))
+2022-12-01 07:22:06:145 [W3C (1c77d13d)] Cached the protocol value 'W3C' for the new session 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:06:146 [W3C (1c77d13d)] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Windows","deviceName":"WindowsPC","app":"C:\\Users\\Administrator\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe"}}
+2022-12-01 07:22:06:148 [HTTP] <-- POST /wd/hub/session 200 6996 ms - 201
+2022-12-01 07:22:06:149 [HTTP] 
+2022-12-01 07:22:06:234 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/timeouts
+2022-12-01 07:22:06:235 [HTTP] {"implicit":20000}
+2022-12-01 07:22:06:241 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:06:244 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/timeouts' to command name 'timeouts'
+2022-12-01 07:22:06:246 [Protocol Converter] Will send the following request bodies to /timeouts: [{"type":"implicit","ms":20000}]
+2022-12-01 07:22:06:247 [WD Proxy] Proxying [POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/timeouts] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/timeouts] with body: {"type":"implicit","ms":20000}
+2022-12-01 07:22:06:252 [WinAppDriver] ==========================================
+2022-12-01 07:22:06:253 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/timeouts HTTP/1.1
+2022-12-01 07:22:06:254 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:06:254 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:06:255 [WinAppDriver] Content-Length: 30
+2022-12-01 07:22:06:255 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:06:256 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:06:256 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:06:256 [WinAppDriver] 
+2022-12-01 07:22:06:257 [WinAppDriver] {"type":"implicit","ms":20000}
+2022-12-01 07:22:06:261 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:06:262 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:06:266 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/timeouts 200 30 ms - 65
+2022-12-01 07:22:06:266 [HTTP] 
+2022-12-01 07:22:06:267 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:06:268 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:06:268 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:06:268 [WinAppDriver] 
+2022-12-01 07:22:06:269 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:06:280 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:06:281 [HTTP] {"using":"xpath","value":"//Button[@Name='Sign In']"}
+2022-12-01 07:22:06:286 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Button[@Name='Sign In']","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:06:288 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:06:295 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:06:295 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Button[@Name='Sign In']"}
+2022-12-01 07:22:06:299 [WinAppDriver] ==========================================
+2022-12-01 07:22:06:299 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:06:300 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:06:300 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:06:301 [WinAppDriver] Content-Length: 53
+2022-12-01 07:22:06:301 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:06:302 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:06:302 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:06:303 [WinAppDriver] 
+2022-12-01 07:22:06:303 [WinAppDriver] {"using":"xpath","value":"//Button[@Name='Sign In']"}
+2022-12-01 07:22:07:330 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:07:330 [WinAppDriver] Content-Length: 122
+2022-12-01 07:22:07:330 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:07:331 [WinAppDriver] 
+2022-12-01 07:22:07:331 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"18ba3fe2-aae2-4843-b197-cde40c10723d"}}
+2022-12-01 07:22:07:334 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"18ba3fe2-aae2-4843-b197-cde40c10723d"}}
+2022-12-01 07:22:07:335 [W3C (1c77d13d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"18ba3fe2-aae2-4843-b197-cde40c10723d","ELEMENT":"18ba3fe2-aae2-4843-b197-cde40c10723d"}
+2022-12-01 07:22:07:337 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 200 1056 ms - 137
+2022-12-01 07:22:07:338 [HTTP] 
+2022-12-01 07:22:07:343 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/18ba3fe2-aae2-4843-b197-cde40c10723d/click
+2022-12-01 07:22:07:344 [HTTP] {}
+2022-12-01 07:22:07:354 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:07:357 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/18ba3fe2-aae2-4843-b197-cde40c10723d/click' to command name 'click'
+2022-12-01 07:22:07:358 [WD Proxy] Proxying [POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/18ba3fe2-aae2-4843-b197-cde40c10723d/click] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/18ba3fe2-aae2-4843-b197-cde40c10723d/click] with body: {}
+2022-12-01 07:22:07:361 [WinAppDriver] ==========================================
+2022-12-01 07:22:07:362 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/18ba3fe2-aae2-4843-b197-cde40c10723d/click HTTP/1.1
+2022-12-01 07:22:07:362 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:07:362 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:07:362 [WinAppDriver] Content-Length: 2
+2022-12-01 07:22:07:363 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:07:363 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:07:363 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:07:363 [WinAppDriver] 
+2022-12-01 07:22:07:364 [WinAppDriver] {}
+2022-12-01 07:22:07:676 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:07:677 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:07:677 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:07:677 [WinAppDriver] 
+2022-12-01 07:22:07:678 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:07:679 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:07:680 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:07:682 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/18ba3fe2-aae2-4843-b197-cde40c10723d/click 200 337 ms - 65
+2022-12-01 07:22:07:682 [HTTP] 
+2022-12-01 07:22:07:687 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:07:687 [HTTP] {"using":"xpath","value":"//Edit[@Name='Enter your email']"}
+2022-12-01 07:22:07:689 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Edit[@Name='Enter your email']","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:07:690 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:07:691 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:07:691 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Edit[@Name='Enter your email']"}
+2022-12-01 07:22:07:694 [WinAppDriver] ==========================================
+2022-12-01 07:22:07:695 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:07:695 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:07:695 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:07:696 [WinAppDriver] Content-Length: 60
+2022-12-01 07:22:07:696 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:07:696 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:07:697 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:07:697 [WinAppDriver] 
+2022-12-01 07:22:07:698 [WinAppDriver] {"using":"xpath","value":"//Edit[@Name='Enter your email']"}
+2022-12-01 07:22:10:608 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:10:608 [WinAppDriver] Content-Length: 122
+2022-12-01 07:22:10:609 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:10:609 [WinAppDriver] 
+2022-12-01 07:22:10:609 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"bc00f50d-87d0-46a3-8b5c-3a6c82e35545"}}
+2022-12-01 07:22:10:611 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"bc00f50d-87d0-46a3-8b5c-3a6c82e35545"}}
+2022-12-01 07:22:10:612 [W3C (1c77d13d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"bc00f50d-87d0-46a3-8b5c-3a6c82e35545","ELEMENT":"bc00f50d-87d0-46a3-8b5c-3a6c82e35545"}
+2022-12-01 07:22:10:614 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 200 2927 ms - 137
+2022-12-01 07:22:10:615 [HTTP] 
+2022-12-01 07:22:10:625 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/bc00f50d-87d0-46a3-8b5c-3a6c82e35545/value
+2022-12-01 07:22:10:625 [HTTP] {"text":"hello1234@gm.com","value":["h","e","l","l","o","1","2","3","4","@","g","m",".","c","o","m"]}
+2022-12-01 07:22:10:627 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:10:629 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/bc00f50d-87d0-46a3-8b5c-3a6c82e35545/value' to command name 'setValue'
+2022-12-01 07:22:10:630 [WD Proxy] Proxying [POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/bc00f50d-87d0-46a3-8b5c-3a6c82e35545/value] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/bc00f50d-87d0-46a3-8b5c-3a6c82e35545/value] with body: {"text":"hello1234@gm.com","value":["h","e","l","l","o","1","2","3","4","@","g","m",".","c","o","m"]}
+2022-12-01 07:22:10:634 [WinAppDriver] ==========================================
+2022-12-01 07:22:10:634 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/bc00f50d-87d0-46a3-8b5c-3a6c82e35545/value HTTP/1.1
+2022-12-01 07:22:10:634 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:10:634 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:10:634 [WinAppDriver] Content-Length: 101
+2022-12-01 07:22:10:635 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:10:635 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:10:635 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:10:635 [WinAppDriver] 
+2022-12-01 07:22:10:636 [WinAppDriver] {"text":"hello1234@gm.com","value":["h","e","l","l","o","1","2","3","4","@","g","m",".","c","o","m"]}
+2022-12-01 07:22:11:784 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:11:785 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:11:785 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:11:786 [WinAppDriver] 
+2022-12-01 07:22:11:786 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:11:788 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:11:789 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:11:792 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/bc00f50d-87d0-46a3-8b5c-3a6c82e35545/value 200 1166 ms - 65
+2022-12-01 07:22:11:793 [HTTP] 
+2022-12-01 07:22:11:799 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:11:800 [HTTP] {"using":"xpath","value":"//Edit[@Name='Enter your password']"}
+2022-12-01 07:22:11:802 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Edit[@Name='Enter your password']","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:11:803 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:11:805 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:11:805 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Edit[@Name='Enter your password']"}
+2022-12-01 07:22:11:811 [WinAppDriver] ==========================================
+2022-12-01 07:22:11:811 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:11:812 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:11:812 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:11:812 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:11:813 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:11:813 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:11:813 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:15:671 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:15:672 [WinAppDriver] Content-Length: 122
+2022-12-01 07:22:15:673 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:15:673 [WinAppDriver] 
+2022-12-01 07:22:15:673 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"91083178-4a56-439c-84cf-46818c512ea5"}}
+2022-12-01 07:22:15:675 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"91083178-4a56-439c-84cf-46818c512ea5"}}
+2022-12-01 07:22:15:675 [W3C (1c77d13d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"91083178-4a56-439c-84cf-46818c512ea5","ELEMENT":"91083178-4a56-439c-84cf-46818c512ea5"}
+2022-12-01 07:22:15:678 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 200 3877 ms - 137
+2022-12-01 07:22:15:678 [HTTP] 
+2022-12-01 07:22:15:682 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/91083178-4a56-439c-84cf-46818c512ea5/click
+2022-12-01 07:22:15:683 [HTTP] {}
+2022-12-01 07:22:15:683 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:15:685 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/91083178-4a56-439c-84cf-46818c512ea5/click' to command name 'click'
+2022-12-01 07:22:15:685 [WD Proxy] Proxying [POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/91083178-4a56-439c-84cf-46818c512ea5/click] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/91083178-4a56-439c-84cf-46818c512ea5/click] with body: {}
+2022-12-01 07:22:15:689 [WinAppDriver] ==========================================
+2022-12-01 07:22:15:689 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/91083178-4a56-439c-84cf-46818c512ea5/click HTTP/1.1
+2022-12-01 07:22:15:690 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:15:690 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:15:690 [WinAppDriver] Content-Length: 2
+2022-12-01 07:22:15:691 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:15:691 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:15:691 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:15:692 [WinAppDriver] 
+2022-12-01 07:22:15:692 [WinAppDriver] {}
+2022-12-01 07:22:16:502 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:16:503 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:16:503 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:16:503 [WinAppDriver] 
+2022-12-01 07:22:16:503 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:16:505 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:16:505 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:16:507 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/91083178-4a56-439c-84cf-46818c512ea5/click 200 824 ms - 65
+2022-12-01 07:22:16:508 [HTTP] 
+2022-12-01 07:22:16:513 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:16:513 [HTTP] {"using":"xpath","value":"//Edit[@Name='Enter your password']"}
+2022-12-01 07:22:16:514 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Edit[@Name='Enter your password']","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:16:514 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:16:515 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:16:515 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Edit[@Name='Enter your password']"}
+2022-12-01 07:22:16:518 [WinAppDriver] ==========================================
+2022-12-01 07:22:16:519 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:16:519 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:16:519 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:16:519 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:16:519 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:16:520 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:16:520 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:16:520 [WinAppDriver] 
+2022-12-01 07:22:16:520 [WinAppDriver] {"using":"xpath","value":"//Edit[@Name='Enter your password']"}
+2022-12-01 07:22:19:451 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:19:452 [WinAppDriver] Content-Length: 122
+2022-12-01 07:22:19:452 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:19:452 [WinAppDriver] 
+2022-12-01 07:22:19:452 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"f7aa1435-bf85-47bd-bde5-06a298203001"}}
+2022-12-01 07:22:19:454 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"f7aa1435-bf85-47bd-bde5-06a298203001"}}
+2022-12-01 07:22:19:456 [W3C (1c77d13d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f7aa1435-bf85-47bd-bde5-06a298203001","ELEMENT":"f7aa1435-bf85-47bd-bde5-06a298203001"}
+2022-12-01 07:22:19:457 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 200 2944 ms - 137
+2022-12-01 07:22:19:458 [HTTP] 
+2022-12-01 07:22:19:465 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/f7aa1435-bf85-47bd-bde5-06a298203001/value
+2022-12-01 07:22:19:465 [HTTP] {"text":"helcom","value":["h","e","l","c","o","m"]}
+2022-12-01 07:22:19:467 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:19:471 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/f7aa1435-bf85-47bd-bde5-06a298203001/value' to command name 'setValue'
+2022-12-01 07:22:19:471 [WD Proxy] Proxying [POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/f7aa1435-bf85-47bd-bde5-06a298203001/value] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/f7aa1435-bf85-47bd-bde5-06a298203001/value] with body: {"text":"helcom","value":["h","e","l","c","o","m"]}
+2022-12-01 07:22:19:476 [WinAppDriver] ==========================================
+2022-12-01 07:22:19:476 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/f7aa1435-bf85-47bd-bde5-06a298203001/value HTTP/1.1
+2022-12-01 07:22:19:477 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:19:477 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:19:477 [WinAppDriver] Content-Length: 51
+2022-12-01 07:22:19:477 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:19:478 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:19:479 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:19:479 [WinAppDriver] 
+2022-12-01 07:22:19:480 [WinAppDriver] {"text":"helcom","value":["h","e","l","c","o","m"]}
+2022-12-01 07:22:19:987 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:19:987 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:19:988 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:19:988 [WinAppDriver] 
+2022-12-01 07:22:19:988 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:19:990 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:19:991 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:19:993 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/f7aa1435-bf85-47bd-bde5-06a298203001/value 200 527 ms - 65
+2022-12-01 07:22:19:993 [HTTP] 
+2022-12-01 07:22:20:000 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:20:000 [HTTP] {"using":"name","value":"Sign In"}
+2022-12-01 07:22:20:002 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["name","Sign In","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:20:002 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:20:004 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:20:005 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"name","value":"Sign In"}
+2022-12-01 07:22:20:009 [WinAppDriver] ==========================================
+2022-12-01 07:22:20:010 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:20:010 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:20:011 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:20:011 [WinAppDriver] Content-Length: 34
+2022-12-01 07:22:20:011 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:20:011 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:20:012 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:20:376 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:20:376 [WinAppDriver] Content-Length: 122
+2022-12-01 07:22:20:377 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:20:377 [WinAppDriver] 
+2022-12-01 07:22:20:378 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"da674493-e6f1-4f8e-8827-3fce40c334bc"}}
+2022-12-01 07:22:20:381 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"da674493-e6f1-4f8e-8827-3fce40c334bc"}}
+2022-12-01 07:22:20:382 [W3C (1c77d13d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"da674493-e6f1-4f8e-8827-3fce40c334bc","ELEMENT":"da674493-e6f1-4f8e-8827-3fce40c334bc"}
+2022-12-01 07:22:20:386 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 200 384 ms - 137
+2022-12-01 07:22:20:386 [HTTP] 
+2022-12-01 07:22:20:394 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/da674493-e6f1-4f8e-8827-3fce40c334bc/click
+2022-12-01 07:22:20:395 [HTTP] {}
+2022-12-01 07:22:20:396 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:20:400 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/da674493-e6f1-4f8e-8827-3fce40c334bc/click' to command name 'click'
+2022-12-01 07:22:20:401 [WD Proxy] Proxying [POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/da674493-e6f1-4f8e-8827-3fce40c334bc/click] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/da674493-e6f1-4f8e-8827-3fce40c334bc/click] with body: {}
+2022-12-01 07:22:20:406 [WinAppDriver] ==========================================
+2022-12-01 07:22:20:407 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/da674493-e6f1-4f8e-8827-3fce40c334bc/click HTTP/1.1
+2022-12-01 07:22:20:407 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:20:408 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:20:408 [WinAppDriver] Content-Length: 2
+2022-12-01 07:22:20:408 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:20:408 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:20:409 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:20:409 [WinAppDriver] 
+2022-12-01 07:22:20:409 [WinAppDriver] {}
+2022-12-01 07:22:21:222 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:21:222 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:21:223 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:21:223 [WinAppDriver] 
+2022-12-01 07:22:21:223 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:21:225 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0}
+2022-12-01 07:22:21:226 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:21:229 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/da674493-e6f1-4f8e-8827-3fce40c334bc/click 200 834 ms - 65
+2022-12-01 07:22:21:230 [HTTP] 
+2022-12-01 07:22:21:235 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:21:236 [HTTP] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:21:238 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Text[contains(@Name,'Incorrect')]","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:21:239 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:21:240 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:21:240 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:21:245 [WinAppDriver] ==========================================
+2022-12-01 07:22:21:245 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:21:246 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:21:246 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:21:246 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:21:247 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:21:247 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:21:247 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:21:248 [WinAppDriver] 
+2022-12-01 07:22:21:248 [WinAppDriver] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:22:275 [WinAppDriver] HTTP/1.1 404 Not Found
+2022-12-01 07:22:22:276 [WinAppDriver] Content-Length: 139
+2022-12-01 07:22:22:276 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:22:276 [WinAppDriver] 
+2022-12-01 07:22:22:277 [WinAppDriver] {"status":7,"value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters."}}
+2022-12-01 07:22:22:280 [WD Proxy] Got response with status 404: {"status":7,"value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters."}}
+2022-12-01 07:22:22:281 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-12-01 07:22:22:385 [W3C (1c77d13d)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-12-01 07:22:22:385 [W3C (1c77d13d)]     at errorFromW3CJsonCode (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:780:25)
+2022-12-01 07:22:22:386 [W3C (1c77d13d)]     at ProxyRequestError.getActualError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:663:14)
+2022-12-01 07:22:22:386 [W3C (1c77d13d)]     at WADProxy.command (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:272:19)
+2022-12-01 07:22:22:386 [W3C (1c77d13d)]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-12-01 07:22:22:387 [W3C (1c77d13d)]     at WinAppDriver.sendCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\winappdriver.js:224:12)
+2022-12-01 07:22:22:387 [W3C (1c77d13d)]     at WindowsDriver.findElOrEls (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\commands\find.js:11:10)
+2022-12-01 07:22:22:387 [W3C (1c77d13d)]     at WindowsDriver.findElOrElsWithProcessing (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+2022-12-01 07:22:22:388 [W3C (1c77d13d)]     at WindowsDriver.findElement (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2022-12-01 07:22:22:391 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 404 1155 ms - 1554
+2022-12-01 07:22:22:391 [HTTP] 
+2022-12-01 07:22:22:950 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:22:951 [HTTP] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:22:951 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Text[contains(@Name,'Incorrect')]","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:22:952 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:22:962 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:22:963 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:22:972 [WinAppDriver] ==========================================
+2022-12-01 07:22:22:972 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:22:973 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:22:973 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:22:973 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:22:974 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:22:974 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:22:974 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:22:974 [WinAppDriver] 
+2022-12-01 07:22:22:975 [WinAppDriver] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:23:994 [WinAppDriver] HTTP/1.1 404 Not Found
+2022-12-01 07:22:23:995 [WinAppDriver] Content-Length: 139
+2022-12-01 07:22:23:996 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:23:996 [WinAppDriver] 
+2022-12-01 07:22:23:997 [WinAppDriver] {"status":7,"value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters."}}
+2022-12-01 07:22:24:007 [WD Proxy] Got response with status 404: {"status":7,"value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters."}}
+2022-12-01 07:22:24:008 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-12-01 07:22:24:014 [W3C (1c77d13d)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-12-01 07:22:24:015 [W3C (1c77d13d)]     at errorFromW3CJsonCode (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:780:25)
+2022-12-01 07:22:24:016 [W3C (1c77d13d)]     at ProxyRequestError.getActualError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:663:14)
+2022-12-01 07:22:24:016 [W3C (1c77d13d)]     at WADProxy.command (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:272:19)
+2022-12-01 07:22:24:017 [W3C (1c77d13d)]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-12-01 07:22:24:017 [W3C (1c77d13d)]     at WinAppDriver.sendCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\winappdriver.js:224:12)
+2022-12-01 07:22:24:018 [W3C (1c77d13d)]     at WindowsDriver.findElOrEls (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\commands\find.js:11:10)
+2022-12-01 07:22:24:018 [W3C (1c77d13d)]     at WindowsDriver.findElOrElsWithProcessing (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+2022-12-01 07:22:24:019 [W3C (1c77d13d)]     at WindowsDriver.findElement (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2022-12-01 07:22:24:023 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 404 1071 ms - 1554
+2022-12-01 07:22:24:026 [HTTP] 
+2022-12-01 07:22:24:538 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:24:539 [HTTP] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:24:540 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Text[contains(@Name,'Incorrect')]","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:24:541 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:24:550 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:24:552 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:24:556 [WinAppDriver] ==========================================
+2022-12-01 07:22:24:556 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:24:557 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:24:557 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:24:557 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:24:558 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:24:558 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:24:558 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:24:724 [WinAppDriver] HTTP/1.1 404 Not Found
+2022-12-01 07:22:24:724 [WinAppDriver] Content-Length: 139
+2022-12-01 07:22:24:725 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:24:725 [WinAppDriver] 
+2022-12-01 07:22:24:725 [WinAppDriver] {"status":7,"value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters."}}
+2022-12-01 07:22:24:728 [WD Proxy] Got response with status 404: {"status":7,"value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters."}}
+2022-12-01 07:22:24:728 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-12-01 07:22:24:731 [W3C (1c77d13d)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-12-01 07:22:24:731 [W3C (1c77d13d)]     at errorFromW3CJsonCode (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:780:25)
+2022-12-01 07:22:24:732 [W3C (1c77d13d)]     at ProxyRequestError.getActualError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:663:14)
+2022-12-01 07:22:24:732 [W3C (1c77d13d)]     at WADProxy.command (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:272:19)
+2022-12-01 07:22:24:732 [W3C (1c77d13d)]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-12-01 07:22:24:733 [W3C (1c77d13d)]     at WinAppDriver.sendCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\winappdriver.js:224:12)
+2022-12-01 07:22:24:733 [W3C (1c77d13d)]     at WindowsDriver.findElOrEls (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\commands\find.js:11:10)
+2022-12-01 07:22:24:733 [W3C (1c77d13d)]     at WindowsDriver.findElOrElsWithProcessing (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+2022-12-01 07:22:24:734 [W3C (1c77d13d)]     at WindowsDriver.findElement (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2022-12-01 07:22:24:736 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 404 197 ms - 1554
+2022-12-01 07:22:24:737 [HTTP] 
+2022-12-01 07:22:25:259 [HTTP] --> POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element
+2022-12-01 07:22:25:260 [HTTP] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:25:261 [W3C (1c77d13d)] Calling AppiumDriver.findElement() with args: ["xpath","//Text[contains(@Name,'Incorrect')]","1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:25:262 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+2022-12-01 07:22:25:264 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-12-01 07:22:25:265 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element] with body: {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:25:270 [WinAppDriver] ==========================================
+2022-12-01 07:22:25:270 [WinAppDriver] POST /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element HTTP/1.1
+2022-12-01 07:22:25:271 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:25:271 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:25:272 [WinAppDriver] Content-Length: 63
+2022-12-01 07:22:25:272 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:25:273 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:25:273 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:25:274 [WinAppDriver] 
+2022-12-01 07:22:25:274 [WinAppDriver] {"using":"xpath","value":"//Text[contains(@Name,'Incorrect')]"}
+2022-12-01 07:22:28:511 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:28:512 [WinAppDriver] Content-Length: 122
+2022-12-01 07:22:28:512 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:28:513 [WinAppDriver] 
+2022-12-01 07:22:28:513 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"a3197b30-def9-4cd0-828c-172343f88ffc"}}
+2022-12-01 07:22:28:516 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":{"ELEMENT":"a3197b30-def9-4cd0-828c-172343f88ffc"}}
+2022-12-01 07:22:28:518 [W3C (1c77d13d)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"a3197b30-def9-4cd0-828c-172343f88ffc","ELEMENT":"a3197b30-def9-4cd0-828c-172343f88ffc"}
+2022-12-01 07:22:28:522 [HTTP] <-- POST /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element 200 3261 ms - 137
+2022-12-01 07:22:28:523 [HTTP] 
+2022-12-01 07:22:28:529 [HTTP] --> GET /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/a3197b30-def9-4cd0-828c-172343f88ffc/text
+2022-12-01 07:22:28:530 [HTTP] {}
+2022-12-01 07:22:28:532 [W3C (1c77d13d)] Driver proxy active, passing request on via HTTP proxy
+2022-12-01 07:22:28:537 [WD Proxy] Matched '/wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/a3197b30-def9-4cd0-828c-172343f88ffc/text' to command name 'getText'
+2022-12-01 07:22:28:538 [WD Proxy] Proxying [GET /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/a3197b30-def9-4cd0-828c-172343f88ffc/text] to [GET http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/a3197b30-def9-4cd0-828c-172343f88ffc/text] with no body
+2022-12-01 07:22:28:543 [WinAppDriver] ==========================================
+2022-12-01 07:22:28:543 [WinAppDriver] GET /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923/element/a3197b30-def9-4cd0-828c-172343f88ffc/text HTTP/1.1
+2022-12-01 07:22:28:544 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:28:544 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:28:545 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:28:545 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:28:546 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:28:564 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:28:565 [WinAppDriver] Content-Length: 101
+2022-12-01 07:22:28:566 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:28:566 [WinAppDriver] 
+2022-12-01 07:22:28:567 [WinAppDriver] {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":"Incorrect email or password"}
+2022-12-01 07:22:28:570 [WD Proxy] Got response with status 200: {"sessionId":"E9B7207D-2D56-4B82-8510-893FFB886923","status":0,"value":"Incorrect email or password"}
+2022-12-01 07:22:28:571 [WD Proxy] Replacing sessionId E9B7207D-2D56-4B82-8510-893FFB886923 with 1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:28:575 [HTTP] <-- GET /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0/element/a3197b30-def9-4cd0-828c-172343f88ffc/text 200 44 ms - 90
+2022-12-01 07:22:28:576 [HTTP] 
+2022-12-01 07:22:28:601 [HTTP] --> DELETE /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0
+2022-12-01 07:22:28:601 [HTTP] {}
+2022-12-01 07:22:28:602 [W3C (1c77d13d)] Calling AppiumDriver.deleteSession() with args: ["1c77d13d-f98b-441d-bf74-6c052d36d2e0"]
+2022-12-01 07:22:28:603 [BaseDriver] Event 'quitSessionRequested' logged at 1669879348603 (12:52:28 GMT+0530 (India Standard Time))
+2022-12-01 07:22:28:604 [Appium] Removing session 1c77d13d-f98b-441d-bf74-6c052d36d2e0 from our master session list
+2022-12-01 07:22:28:606 [WinAppDriver] Deleting WinAppDriver session
+2022-12-01 07:22:28:607 [WinAppDriver] Deleting WinAppDriver server session
+2022-12-01 07:22:28:608 [WD Proxy] Matched '/session/E9B7207D-2D56-4B82-8510-893FFB886923' to command name 'deleteSession'
+2022-12-01 07:22:28:608 [WD Proxy] Proxying [DELETE /session/E9B7207D-2D56-4B82-8510-893FFB886923] to [DELETE http://127.0.0.1:4724/wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923] with no body
+2022-12-01 07:22:28:612 [WinAppDriver] ==========================================
+2022-12-01 07:22:28:612 [WinAppDriver] DELETE /wd/hub/session/E9B7207D-2D56-4B82-8510-893FFB886923 HTTP/1.1
+2022-12-01 07:22:28:613 [WinAppDriver] Accept: application/json, */*
+2022-12-01 07:22:28:614 [WinAppDriver] Connection: keep-alive
+2022-12-01 07:22:28:614 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 07:22:28:614 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 07:22:28:615 [WinAppDriver] User-Agent: appium
+2022-12-01 07:22:28:762 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 07:22:28:762 [WinAppDriver] Content-Length: 12
+2022-12-01 07:22:28:763 [WinAppDriver] Content-Type: application/json
+2022-12-01 07:22:28:764 [WinAppDriver] 
+2022-12-01 07:22:28:764 [WinAppDriver] {"status":0}
+2022-12-01 07:22:28:767 [WD Proxy] Got response with status 200: {"status":0}
+2022-12-01 07:22:28:807 [WinAppDriver] WinAppDriver exited with code null, signal SIGTERM
+2022-12-01 07:22:28:810 [BaseDriver] Event 'quitSessionFinished' logged at 1669879348809 (12:52:28 GMT+0530 (India Standard Time))
+2022-12-01 07:22:28:811 [W3C (1c77d13d)] Received response: null
+2022-12-01 07:22:28:811 [W3C (1c77d13d)] But deleting session, so not returning
+2022-12-01 07:22:28:811 [W3C (1c77d13d)] Responding to client with driver.deleteSession() result: null
+2022-12-01 07:22:28:814 [HTTP] <-- DELETE /wd/hub/session/1c77d13d-f98b-441d-bf74-6c052d36d2e0 200 212 ms - 14
+2022-12-01 07:22:28:814 [HTTP] 

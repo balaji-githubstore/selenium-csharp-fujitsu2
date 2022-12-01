@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="13" result="Passed" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.16.0.0" clr-version="4.0.30319.42000" start-time="2022-12-01 07:21:49Z" end-time="2022-12-01 07:22:28Z" duration="39.244483">
+  <command-line><![CDATA[nunit3-console  bin\Debug\net6.0\WindowsAutomation.dll --test=WindowsAutomation.ZoomAppServerCustTest.InvalidLogin2Test]]></command-line>
+  <filter>
+    <test>WindowsAutomation.ZoomAppServerCustTest.InvalidLogin2Test</test>
+  </filter>
+  <test-suite type="Assembly" id="1-1018" name="WindowsAutomation.dll" fullname="C:/automation_work/WindowsAutomationSln/WindowsAutomation/bin/Debug/net6.0/WindowsAutomation.dll" runstate="Runnable" testcasecount="13" result="Passed" start-time="2022-12-01T07:21:50.9303767Z" end-time="2022-12-01T07:22:28.8442622Z" duration="37.913715" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.13.3.0" clr-version="6.0.11" os-version="Microsoft Windows 10.0.19042" platform="Win32NT" cwd="C:\automation_work\WindowsAutomationSln\WindowsAutomation" machine-name="WINDOWS-UNR7VLH" user="Administrator" user-domain="WINDOWS-UNR7VLH" culture="en-IN" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\automation_work\WindowsAutomationSln\WindowsAutomation" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="18800" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1019" name="WindowsAutomation" fullname="WindowsAutomation" runstate="Runnable" testcasecount="13" result="Passed" start-time="2022-12-01T07:21:50.9466604Z" end-time="2022-12-01T07:22:28.8426510Z" duration="37.895991" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestFixture" id="1-1011" name="ZoomAppServerCustTest" fullname="WindowsAutomation.ZoomAppServerCustTest" classname="WindowsAutomation.ZoomAppServerCustTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-12-01T07:21:50.9510236Z" end-time="2022-12-01T07:22:28.8403030Z" duration="37.889280" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <output><![CDATA[True
+http://127.0.0.1:49204/wd/hub
+]]></output>
+        <test-case id="1-1012" name="InvalidLogin2Test" fullname="WindowsAutomation.ZoomAppServerCustTest.InvalidLogin2Test" methodname="InvalidLogin2Test" classname="WindowsAutomation.ZoomAppServerCustTest" runstate="Runnable" seed="1644508964" result="Passed" start-time="2022-12-01T07:21:58.8853653Z" end-time="2022-12-01T07:22:28.8292235Z" duration="29.944117" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
